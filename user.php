@@ -14,6 +14,6 @@ $subject = "Shootingstarts - User-Experience Form";
 $message = "Name : $name  E-mail : $email  Query : $query";
 $header = "From: $email\n";
 mail($to,$subject,$message,$header);
-echo "<br>Thank you for your input. We hope you liked it..";
+echo "<br>Thank you for your input. We hope you liked it. Thanks.";
 ?>
 <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>"></br></br>Go Back to website.</a>
